@@ -11,10 +11,14 @@ Instruction :
 Q.How  to do it?.
 ANS:just select every Question and google it
 
-	1.What is the main function of DOM?
-	2.What are the levels involved in DOM?
+<	1.What is the main function of DOM?>
+
+<	2.What are the levels involved in DOM?>
+
 	3.What is the use or function of XML DOM?
+
 	4.What is the use or function of HTML DOM?
+
 	5.What is the use of DOM in W3C standards?
 	6.Write a program that shows the use of DOM?
 	7.What are the errors made while processing the DOM?
