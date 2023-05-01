@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+html{
+    height: 100vh;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
+    margin: auto;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-position: center center;
+
+
+}
+.calculator-container{
+    background-color: rgb(155,168,159,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.data-for-calculator{
+    display: flex;
+    flex-direction: column;align-items: center;
+    margin: 0px 50px 10px 50px;
+}
+.data-for-calculator input{
+    margin:10px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;border: 1px solid #7a8388;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 10);
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+}
+h1{
+   margin:0 10px 10px 10px ; 
+}
+.button-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#calculate-button, #reset-button{
+    margin: 0 15px 10px 20px;
+    
+}
+#reset-button{
+    padding: 3px 20px;
+}
+.calculate-result p{
+    margin:5px 0;
+    color: #ffff;
+    font-weight: bold;
+
+}
+.result{
+    display: flex;
+    flex-direction: row;
+}
+.result > p:last-child{
+    font-size: 20px;
+}
+@media (max-width: 1000px)
+{
+    background-image:url();
+}
